@@ -110,6 +110,25 @@ megvalósítása kissé nehézkesebb lesz.
 egy szabályozás megvalósítása. Feltételezzük, hogy erre majd python nyelvben lesz
 lehetőségünk.
 </UL>
+
+<H1>3.Labor</H1>
+
+<H2>Feladat:</H2>
+<P>Az előző alkalommal véglegesített robot szoftveres fejlesztése. A Lego Mindstorms EV3 alkalmazással egyszerűsített szabályozás készítése a robot sikeresebb egyensúlyozására.</P>
+
+<H2>Csapat robotja működés közben:</H2>
+<IMG src="https://raw.githubusercontent.com/robotlabor-education/HArmasCsapat-student-air/main/K%C3%A9pek/5.png"> 
+<IMG src="https://raw.githubusercontent.com/robotlabor-education/HArmasCsapat-student-air/main/K%C3%A9pek/6.png">
+
+<H2>Elvégzett szoftveres fejlesztések:</H2>
+<UL>
+<LI>Módosított programfelépítés, ciklusok részletesebb használata, a program már nem egyszerű if-else feltételekkel működik, ennél pontosabb és részletesebb változat jött létre
+<LI>A programunkba készítettünk egy robot dőlésével arányos nyomatékadagolást. Egy tapasztalati értéken alapuló arányos osztás segítségével kisebb dőlés esetén kisebb nyomatékot fejtenek ki a motorok, ezzel finomabb és óvatosabb korrigálást biztosítva a robotnak, a jobb egyensúly érdekében. Nagyobb dőlési szög esetén a motor több nyomatékot fejt ki a korrekció érdekében
+<LI>A robot az egyensúlyi állapot közelében már képes szépen korrigálni, akár 1-2 másodperces egyensúlyozásra is képes már.
+</UL>
+
+<H2>Felmerülő problémák:</H2>
+<P>A robot ugyan sokkal biztosabban működik, mint az előző alkalommal, viszont még nem tud pár másodpercnél tovább önállóan egyensúlyozni. A legnagyobb probléma az egyensúlyi állapottól kissé távolabb van, ugyanis ha nagyobb kidőlése lesz a robotnak nem tud visszakorrigálni. A továbbiakban a nagyobb kidőlések kezelését kell fejlesztenünk, ott még nem tudtuk jól beállítani a nyomatékszabályozást. </P>
   
 </BODY>
 </HTML>
