@@ -73,7 +73,7 @@ A Lego Mindstorms EV3 alkalmazással csatlakozás a robot vezérlőjéhez és a 
 mozgásának tesztelése.</P>
 
 <H2>Csapat robotja a módosítások után:</H2>
-<center><IMG src="https://raw.githubusercontent.com/robotlabor-education/HArmasCsapat-student-air/main/K%C3%A9pek/4.png"> <IMG src="https://raw.githubusercontent.com/robotlabor-education/HArmasCsapat-student-air/main/K%C3%A9pek/3.png"></center>
+<CENTER><IMG src="https://raw.githubusercontent.com/robotlabor-education/HArmasCsapat-student-air/main/K%C3%A9pek/4.png"> <IMG src="https://raw.githubusercontent.com/robotlabor-education/HArmasCsapat-student-air/main/K%C3%A9pek/3.png"></CENTER>
 
 <H2>Elvégzett módosítások:</H2>
 <UL>
