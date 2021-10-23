@@ -64,5 +64,52 @@ esztétikusabb elvezetése
 tudását.
 </UL>
 
+  <H1>2.Labor</H1>
+
+<H2>Feladat:</H2>
+<P>Az előző alkalommal elkészített differenciális robot befejezése, tovább fejlesztése.
+A Lego Mindstorms EV3 alkalmazással csatlakozás a robot vezérlőjéhez és a robot
+építéséhez felhasznált aktuátorok és szenzorok működésének ellenőrzése. A robot
+mozgásának tesztelése.</P>
+
+<H2>Csapat robotja a módosítások után:</H2>
+<IMG src="https://raw.githubusercontent.com/robotlabor-education/HArmasCsapat-student-air/main/K%C3%A9pek/4.png"> <IMG src="https://raw.githubusercontent.com/robotlabor-education/HArmasCsapat-student-air/main/K%C3%A9pek/3.png">
+
+<H2>Elvégzett módosítások:</H2>
+<UL>
+<LI>Megfordítottuk a vezérlőegységet, ami így jobban hozzáférhető és a kijelző is jobban
+látszik.
+<LI>Leszereltük a golyós görgőt, mivel ha a robotnak szüksége lenne rá lényegében
+értelmét vesztené az egyensúlyozás koncepciója.
+<LI>Helyette előre és hátulra is kinyúló védelmi elemeket szereltünk a képernyő és a
+giroszkóp szenzor megóvása érdekében.
+<LI>A robot hátuljára (amint az alsó képeken látszik is) kábel sorolót szereltünk, hogy a
+vezetékek ne érjenek a talajhoz és esztétikailag is rendezettebben nézzenek ki.
+</UL>
+
+<H2>A feltöltött első programunk:</H2>
+<P>A csapat által elsőnek feltöltött program a motorok és a giroszkóp szenzor működésének
+megismerésére szolgált számunkra. Megismerkedtünk a Lego Mindstorms EV3
+programozási felülettel. Megfigyeltük, hogy a giroszkóp milyen pontossággal és milyen
+stabilan méri a robot elfordulási szögét. Majd a szenzor adatok felhasználásával egy nagyon
+egyszerű, az egyensúlyozás megvalósítására alkalmatlan, if statementekből álló programot
+írtunk. A lényeg annyi volt, hogy megtaláljuk a robot súlypontját, majd az ettől való
+eltéréseket figyeltük a giroszkóppal. Ha egy két fokkal dőlni kezdett a robot ellen próbáltunk
+tartani a motorokkal. Megfigyeltük a motorok által kifejtett nyomatékot és próbáltuk
+optimálisra állítani. Ezzel a módszerrel természetesen nem tartotta meg a robot stabilan az
+egyensúlyát, de volt amikor egészen közel állt és a súlypontja körül dülöngélt oda-vissza.
+Ennek kiküszöbölésére természetesen egy megfelelő szabályozó megírására lesz
+szükségünk.</P>
+
+<H2>Felmerülő problémák:</H2>
+<UL>
+<LI>A végrehajtott módosításokkal, főleg a vezérlő megfordításával és a golyós görgő
+leszerelésével a robot súlypontja kissé hátra tolódott, így az egyensúlyozás
+megvalósítása kissé nehézkesebb lesz.
+<LI>A Lego szoftver eddig általunk megismert részével nem tudjuk, hogyan kivitelezhető
+egy szabályozás megvalósítása. Feltételezzük, hogy erre majd python nyelvben lesz
+lehetőségünk.
+</UL>
+  
 </BODY>
 </HTML>
