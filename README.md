@@ -1,9 +1,5 @@
 # HArmasCsapat-student-air
 HármasCsapat csapat - Autonóm és Intelligens Robotok 2021 ősz kurzus
-Csapat tagok:
--Haász Bence
--Horváth Tamás
--Pungr Martin
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
 "http://www.w3.org/TR/html4/loose.dtd">
@@ -14,7 +10,12 @@ Csapat tagok:
 </HEAD>
 <BODY bgcolor=white>
 
-
+  <H2>Csapat tagok:</H2>
+  <UL>
+    <LI>Haász Bence
+    <LI>Horváth Tamás
+    <LI>Pungor Tamás
+   </UL>
 
 <H1>1.Labor</H1>
 
