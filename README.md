@@ -15,8 +15,7 @@ HármasCsapat csapat - Autonóm és Intelligens Robotok 2021 ősz kurzus
 
 <H2>Csapat által elkészített LEGO robot:</H2>
 
-<IMG src="https://raw.githubusercontent.com/robotlabor-education/HArmasCsapat-student-air/main/K%C3%A9pek/1.png"> 
-<IMG src="https://raw.githubusercontent.com/robotlabor-education/HArmasCsapat-student-air/main/K%C3%A9pek/2.png">
+<IMG src="https://raw.githubusercontent.com/robotlabor-education/HArmasCsapat-student-air/main/K%C3%A9pek/1.png"> <IMG src="https://raw.githubusercontent.com/robotlabor-education/HArmasCsapat-student-air/main/K%C3%A9pek/2.png">
 
 <H2>Felhasznált fő építőelemek:</H2>
 <UL>
@@ -74,7 +73,7 @@ A Lego Mindstorms EV3 alkalmazással csatlakozás a robot vezérlőjéhez és a 
 mozgásának tesztelése.</P>
 
 <H2>Csapat robotja a módosítások után:</H2>
-<CENTER><IMG src="https://raw.githubusercontent.com/robotlabor-education/HArmasCsapat-student-air/main/K%C3%A9pek/4.png"></CENTER> <CENTER><IMG src="https://raw.githubusercontent.com/robotlabor-education/HArmasCsapat-student-air/main/K%C3%A9pek/3.png"></CENTER>
+<IMG src="https://raw.githubusercontent.com/robotlabor-education/HArmasCsapat-student-air/main/K%C3%A9pek/4.png"> <IMG src="https://raw.githubusercontent.com/robotlabor-education/HArmasCsapat-student-air/main/K%C3%A9pek/3.png">
 
 <H2>Elvégzett módosítások:</H2>
 <UL>
@@ -118,8 +117,7 @@ lehetőségünk.
 <P>Az előző alkalommal véglegesített robot szoftveres fejlesztése. A Lego Mindstorms EV3 alkalmazással egyszerűsített szabályozás készítése a robot sikeresebb egyensúlyozására.</P>
 
 <H2>Csapat robotja működés közben:</H2>
-<IMG src="https://raw.githubusercontent.com/robotlabor-education/HArmasCsapat-student-air/main/K%C3%A9pek/5.png"> 
-<IMG src="https://raw.githubusercontent.com/robotlabor-education/HArmasCsapat-student-air/main/K%C3%A9pek/6.png">
+<IMG src="https://raw.githubusercontent.com/robotlabor-education/HArmasCsapat-student-air/main/K%C3%A9pek/5.png"> <IMG src="https://raw.githubusercontent.com/robotlabor-education/HArmasCsapat-student-air/main/K%C3%A9pek/6.png">
 
 <H2>Elvégzett szoftveres fejlesztések:</H2>
 <UL>
@@ -136,9 +134,7 @@ lehetőségünk.
 <H2>1.Feladat:</H2>
 <P>Webotsal való ismerkedés, egy egyszerű legalább kétkerekű robot létrehozása.</P>
 
-<IMG src="https://raw.githubusercontent.com/robotlabor-education/HArmasCsapat-student-air/main/K%C3%A9pek/7.png"> 
-<IMG src="https://raw.githubusercontent.com/robotlabor-education/HArmasCsapat-student-air/main/K%C3%A9pek/8.png"> 
-<IMG src="https://raw.githubusercontent.com/robotlabor-education/HArmasCsapat-student-air/main/K%C3%A9pek/9.png"> 
+<IMG src="https://raw.githubusercontent.com/robotlabor-education/HArmasCsapat-student-air/main/K%C3%A9pek/7.png"> <IMG src="https://raw.githubusercontent.com/robotlabor-education/HArmasCsapat-student-air/main/K%C3%A9pek/8.png"> <IMG src="https://raw.githubusercontent.com/robotlabor-education/HArmasCsapat-student-air/main/K%C3%A9pek/9.png"> 
 
 <H2>Elkészítés szempontjai:</H2>
 <P>Az elkészített robotunk a LEGO mindstormsból alkotott fizikális robotunk digitális mása próbál lenni. Szintén az egyensúlyozás lesz a célja.</P>
@@ -154,15 +150,12 @@ lehetőségünk.
 <P> A robot vezérlése egy PID szabályozást valósít meg. A szabályozott jellemző a motor kerekeinek sebessége, amelyet a szabályozó az inercia mérő által szolgáltatott dőlésszög függvényében változtat. A P, I, és D tagok konstansainak meghatározása próbálkozással történt, azonban így is egészen stabilan tudja egyensúlyozni a robotot, amely lejtőn sem dől el, azonban a jelenlegi programmal még legurul róla. Emellett a robot a billentyűzet “WASD” gombjaival irányítható. Előre és hátra haladáshoz a szabályozás referenciáját lehet növelni vagy csökkenteni a W és az S gombbal. Ekkor a robot előre vagy hátra dől 1 fokot ezáltal a dőlés irányába halad. Oldalra haladáshoz pedig, differenciális robothoz méltóan a két kerék sebességének különbségét változtathatjuk az A és D gombokkal.
 </P>
 
-<IMG src="https://raw.githubusercontent.com/robotlabor-education/HArmasCsapat-student-air/main/K%C3%A9pek/10.png"> 
-<IMG src="https://raw.githubusercontent.com/robotlabor-education/HArmasCsapat-student-air/main/K%C3%A9pek/11.png"> 
+<IMG src="https://raw.githubusercontent.com/robotlabor-education/HArmasCsapat-student-air/main/K%C3%A9pek/10.png"> <IMG src="https://raw.githubusercontent.com/robotlabor-education/HArmasCsapat-student-air/main/K%C3%A9pek/11.png"> 
 
 <H2>2.Feladat:</H2>
 <P> ROS2 telepítése és egy egyszerű node rendszer kialakítása.</P>
 
-<IMG src="https://raw.githubusercontent.com/robotlabor-education/HArmasCsapat-student-air/main/K%C3%A9pek/12.png">
-<IMG src="https://raw.githubusercontent.com/robotlabor-education/HArmasCsapat-student-air/main/K%C3%A9pek/13.png">
-<IMG src="https://raw.githubusercontent.com/robotlabor-education/HArmasCsapat-student-air/main/K%C3%A9pek/14.png">   
+<IMG src="https://raw.githubusercontent.com/robotlabor-education/HArmasCsapat-student-air/main/K%C3%A9pek/12.png"><IMG src="https://raw.githubusercontent.com/robotlabor-education/HArmasCsapat-student-air/main/K%C3%A9pek/13.png"><IMG src="https://raw.githubusercontent.com/robotlabor-education/HArmasCsapat-student-air/main/K%C3%A9pek/14.png">   
   
 <P> A videók segítségével feltelepítettük a ROS2-t és létrehoztuk a fenti képeken látható szerkezetű projektet. 
 Létrehoztunk két node-ot egy pid és egy interface nevűt. A pid node-ban egy PID szabályozást valósítunk meg. 
