@@ -173,11 +173,11 @@ képes és felhasználható egyéb azt megkívánó alkalmazásokban. </P>
 
 <B>A pid_node python programja:</B>
 
-<a href=https://github.com/robotlabor-education/HArmasCsapat-student-air/blob/main/pid_node.py</a>
+https://github.com/robotlabor-education/HArmasCsapat-student-air/blob/main/pid_node.py
 
 <B>Az interface_node programja:</B>
 
-<a href=https://github.com/robotlabor-education/HArmasCsapat-student-air/blob/main/interface_node.py</a>
+https://github.com/robotlabor-education/HArmasCsapat-student-air/blob/main/interface_node.py
   
 </BODY>
 </HTML>
