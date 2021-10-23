@@ -129,6 +129,55 @@ lehetőségünk.
 
 <H2>Felmerülő problémák:</H2>
 <P>A robot ugyan sokkal biztosabban működik, mint az előző alkalommal, viszont még nem tud pár másodpercnél tovább önállóan egyensúlyozni. A legnagyobb probléma az egyensúlyi állapottól kissé távolabb van, ugyanis ha nagyobb kidőlése lesz a robotnak nem tud visszakorrigálni. A továbbiakban a nagyobb kidőlések kezelését kell fejlesztenünk, ott még nem tudtuk jól beállítani a nyomatékszabályozást. </P>
+
+<H1>4.Labor</H1>
+
+<H2>1.Feladat:</H2>
+<P>Webotsal való ismerkedés, egy egyszerű legalább kétkerekű robot létrehozása.</P>
+
+<IMG src="https://raw.githubusercontent.com/robotlabor-education/HArmasCsapat-student-air/main/K%C3%A9pek/7.png"> 
+<IMG src="https://raw.githubusercontent.com/robotlabor-education/HArmasCsapat-student-air/main/K%C3%A9pek/8.png"> 
+<IMG src="https://raw.githubusercontent.com/robotlabor-education/HArmasCsapat-student-air/main/K%C3%A9pek/9.png"> 
+
+<H2>Elkészítés szempontjai:</H2>
+<P>Az elkészített robotunk a LEGO mindstormsból alkotott fizikális robotunk digitális mása próbál lenni. Szintén az egyensúlyozás lesz a célja.</P>
+
+<H2>Felhasznált elemek:</H2>
+<UL>
+<LI>Két kerék, amellyek motorokkal csatlakoznak a testhez
+<LI>Robot test
+<LI>Inertial measurement unit (IMU), amely a robot tetején lévő piros doboz. A robot dőlésszögének meghatározására szolgál.
+</UL>
+
+<H2>Vezérlés:</H2>
+<P> A robot vezérlése egy PID szabályozást valósít meg. A szabályozott jellemző a motor kerekeinek sebessége, amelyet a szabályozó az inercia mérő által szolgáltatott dőlésszög függvényében változtat. A P, I, és D tagok konstansainak meghatározása próbálkozással történt, azonban így is egészen stabilan tudja egyensúlyozni a robotot, amely lejtőn sem dől el, azonban a jelenlegi programmal még legurul róla. Emellett a robot a billentyűzet “WASD” gombjaival irányítható. Előre és hátra haladáshoz a szabályozás referenciáját lehet növelni vagy csökkenteni a W és az S gombbal. Ekkor a robot előre vagy hátra dől 1 fokot ezáltal a dőlés irányába halad. Oldalra haladáshoz pedig, differenciális robothoz méltóan a két kerék sebességének különbségét változtathatjuk az A és D gombokkal.
+</P>
+
+<IMG scr="https://github.com/robotlabor-education/HArmasCsapat-student-air/blob/main/K%C3%A9pek/10.png">
+<IMG scr="https://github.com/robotlabor-education/HArmasCsapat-student-air/blob/main/K%C3%A9pek/11.png">
+
+<H2>2.Feladat:</H2>
+<P> ROS2 telepítése és egy egyszerű node rendszer kialakítása.</P>
+
+<IMG scr="https://github.com/robotlabor-education/HArmasCsapat-student-air/blob/main/K%C3%A9pek/12.png">
+<IMG scr="https://github.com/robotlabor-education/HArmasCsapat-student-air/blob/main/K%C3%A9pek/13.png">
+<IMG scr="https://github.com/robotlabor-education/HArmasCsapat-student-air/blob/main/K%C3%A9pek/14.png">
+
+<P> A videók segítségével feltelepítettük a ROS2-t és létrehoztuk a fenti képeken látható szerkezetű projektet. 
+Létrehoztunk két node-ot egy pid és egy interface nevűt. A pid node-ban egy PID szabályozást valósítunk meg. 
+Az interface node pedig egy soros RC kört szimulál. A PID szabályozás az RC kör C tagjának feszültségére történik. 
+Ahhoz, hogy a szabályozás jól látható legyen a PID szabályozó referencia értékét időnként változtatjuk, ezzel különböző 
+feszültségekre töltjük a kondenzátort. Természetesen ehhez a feladathoz nem feltétlenül szükséges. A diferenciáló tag 
+konstansát például nullára is állítottuk és így is megfelelően működik a szabályozás. Viszont a PID szabályozó működő 
+képes és felhasználható egyéb azt megkívánó alkalmazásokban. </P>
+
+<B>A pid_node python programja:</B>
+
+<a href=https://github.com/robotlabor-education/HArmasCsapat-student-air/blob/main/pid_node.py</a>
+
+<B>Az interface_node programja:</B>
+
+<a href=https://github.com/robotlabor-education/HArmasCsapat-student-air/blob/main/interface_node.py</a>
   
 </BODY>
 </HTML>
