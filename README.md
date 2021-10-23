@@ -15,7 +15,8 @@ HármasCsapat csapat - Autonóm és Intelligens Robotok 2021 ősz kurzus
 
 <H2>Csapat által elkészített LEGO robot:</H2>
 
-<IMG src="https://raw.githubusercontent.com/robotlabor-education/HArmasCsapat-student-air/main/K%C3%A9pek/1.png"> <IMG src="https://raw.githubusercontent.com/robotlabor-education/HArmasCsapat-student-air/main/K%C3%A9pek/2.png">
+<IMG src="https://raw.githubusercontent.com/robotlabor-education/HArmasCsapat-student-air/main/K%C3%A9pek/1.png"> 
+<IMG src="https://raw.githubusercontent.com/robotlabor-education/HArmasCsapat-student-air/main/K%C3%A9pek/2.png">
 
 <H2>Felhasznált fő építőelemek:</H2>
 <UL>
