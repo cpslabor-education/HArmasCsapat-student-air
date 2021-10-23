@@ -153,16 +153,16 @@ lehetőségünk.
 <P> A robot vezérlése egy PID szabályozást valósít meg. A szabályozott jellemző a motor kerekeinek sebessége, amelyet a szabályozó az inercia mérő által szolgáltatott dőlésszög függvényében változtat. A P, I, és D tagok konstansainak meghatározása próbálkozással történt, azonban így is egészen stabilan tudja egyensúlyozni a robotot, amely lejtőn sem dől el, azonban a jelenlegi programmal még legurul róla. Emellett a robot a billentyűzet “WASD” gombjaival irányítható. Előre és hátra haladáshoz a szabályozás referenciáját lehet növelni vagy csökkenteni a W és az S gombbal. Ekkor a robot előre vagy hátra dől 1 fokot ezáltal a dőlés irányába halad. Oldalra haladáshoz pedig, differenciális robothoz méltóan a két kerék sebességének különbségét változtathatjuk az A és D gombokkal.
 </P>
 
-<IMG scr="https://github.com/robotlabor-education/HArmasCsapat-student-air/blob/main/K%C3%A9pek/10.png">
-<IMG scr="https://github.com/robotlabor-education/HArmasCsapat-student-air/blob/main/K%C3%A9pek/11.png">
+<IMG src="https://raw.githubusercontent.com/robotlabor-education/HArmasCsapat-student-air/main/K%C3%A9pek/10.png"> 
+<IMG src="https://raw.githubusercontent.com/robotlabor-education/HArmasCsapat-student-air/main/K%C3%A9pek/11.png"> 
 
 <H2>2.Feladat:</H2>
 <P> ROS2 telepítése és egy egyszerű node rendszer kialakítása.</P>
 
-<IMG scr="https://github.com/robotlabor-education/HArmasCsapat-student-air/blob/main/K%C3%A9pek/12.png">
-<IMG scr="https://github.com/robotlabor-education/HArmasCsapat-student-air/blob/main/K%C3%A9pek/13.png">
-<IMG scr="https://github.com/robotlabor-education/HArmasCsapat-student-air/blob/main/K%C3%A9pek/14.png">
-
+<IMG src="https://raw.githubusercontent.com/robotlabor-education/HArmasCsapat-student-air/main/K%C3%A9pek/12.png">
+<IMG src="https://raw.githubusercontent.com/robotlabor-education/HArmasCsapat-student-air/main/K%C3%A9pek/13.png">
+<IMG src="https://raw.githubusercontent.com/robotlabor-education/HArmasCsapat-student-air/main/K%C3%A9pek/14.png">   
+  
 <P> A videók segítségével feltelepítettük a ROS2-t és létrehoztuk a fenti képeken látható szerkezetű projektet. 
 Létrehoztunk két node-ot egy pid és egy interface nevűt. A pid node-ban egy PID szabályozást valósítunk meg. 
 Az interface node pedig egy soros RC kört szimulál. A PID szabályozás az RC kör C tagjának feszültségére történik. 
