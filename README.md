@@ -14,7 +14,7 @@ HármasCsapat csapat - Autonóm és Intelligens Robotok 2021 ősz kurzus
   <UL>
     <LI>Haász Bence
     <LI>Horváth Tamás
-    <LI>Pungor Tamás
+    <LI>Pungor Martin
    </UL>
 
 <H1>1.Labor</H1>
